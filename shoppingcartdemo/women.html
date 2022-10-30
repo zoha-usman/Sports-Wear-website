@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsWear And Goods</title>
+    <link rel="stylesheet" href="navebar.css">
+    <style>
+        body {
+            /* background-color: rgb(241, 221, 241); */
+            /* background-color: rgb(134, 209, 134); */
+            background-color: rgb(173, 226, 173);
+
+
+
+        }
+
+        .flex-container {
+            display: flex;
+            background-color: rgb(173, 226, 173);
+        }
+
+        .flex-container>div {
+            /* background-color: wheat; */
+            background-color: #f1f1f1;
+
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        button.arrow {
+
+            background-color: rgb(33, 15, 15);
+        }
+        div button{
+            position: relative;
+            left: 80%;
+        }
+       /* div.one {
+        border: 8px solid black;
+    }*/
+
+    .zoom img {
+        
+        transition: 0.5s all ease-in-out;
+    }
+      
+    .zoom:hover img {
+        transform: scale(1.5);
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>SportsWear And Goods</h1>
+
+        <!-- <=======================================================================> -->
+        <!-- navebar -->
+        <!-- html for nave bar -->
+
+        <div class="top-Nav">
+            <a href="men.html"> Men SportsWear </a>
+            <a href="women.html"> Women SportsWear</a>
+            <a href="Goods.html"> Sports Goods</a>
+            <a href="selectedItems.html">
+                <i class='fas fa-cart-plus' style='font-size:36px'>&#xf07a;</i>
+
+                <!-- <i style='font-size:24px' class='fas'>&#xf291;</i> -->
+            </a>
+        
+        </div>
+    
+        
+        <!-- <=====================================================================> -->
+
+
+        <section>
+
+            <div class="flex-container">
+                <div class="one">
+                    <div class="zoom">
+                        <img src="/media/women/womenShoes.jpg" alt="" width="150dp">
+
+                    </div>
+                    <p>Shoes</p>
+                    <button class="arrow">
+                        <img src="/media/arrow.png" alt=" forward key" width="10dp">
+                    </button>
+                </div>
+
+                <div class="one">
+                    <div class="zoom">
+
+                        <img src="/media/women/womenShirt.jpg" alt="" width="150dp">
+
+                    </div>
+                    <p>Shirt</p>
+                    <button class="arrow">
+                        <img src="/media/arrow.png" alt=" forward key" width="10dp">
+                    </button>
+
+                </div>
+                <div class="one">
+                    <div class="zoom">
+                        <img src="/media/women/womenTrouser.jpg" alt="" width="150dp">
+
+                    </div>
+                    <p>Trouser</p>
+                    <button class="arrow">
+                        <img src="/media/arrow.png" alt=" forward key" width="10dp">
+                    </button>
+
+                </div>
+                <div class="one">
+                    <div class="zoom">
+                        <img src="/media/women/womenOutfit.jpg" alt="" width="150dp">
+                    </div>
+                   
+                    <p>OutFit</p>
+                    <button class="arrow">
+                        <img src="/media/arrow.png" alt=" forward key" width="10dp">
+                    </button>
+
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+</body>
+
+</html>
